@@ -1,0 +1,16 @@
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-yellow);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
