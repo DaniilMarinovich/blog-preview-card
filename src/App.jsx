@@ -1,11 +1,13 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
-import { BlogPreviewCard } from './components/BlogPreviewCard/BlogPreviewCard';
+import HomePage from './pages/Home';
 
 function App() {
   return (
-    <main className="content">
-      <BlogPreviewCard />
-    </main>
+    <BrowserRouter basename="/blog-preview-card">
+      <HomePage />
+    </BrowserRouter>
   );
 }
 
